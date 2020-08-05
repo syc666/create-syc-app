@@ -1,10 +1,10 @@
 {
-  "name": "syc-cli",
-  "version": "1.0.0",
+  "name": "create-syc-app",
+  "version": "1.0.3",
   "description": "合一带大家开发脚手架工具",
   "main": "index.js",
   "bin": {
-    "syc-cli": "bin/main.js"
+    "create-syc-app": "bin/main.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -36,5 +36,16 @@
     "string.prototype.padstart": "^3.0.0",
     "valid-filename": "^3.1.0",
     "validate-npm-package-name": "^3.0.0"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syc666/create-syc-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/syc666/create-syc-app/issues"
+  },
+  "homepage": "https://github.com/syc666/create-syc-app#readme"
 }
